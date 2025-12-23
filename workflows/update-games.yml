@@ -1,0 +1,115 @@
+name: Atualizar jogos grátis (Epic)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # a cada 30 minutos
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Usar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Buscar Epic e gerar games.json
+        run: |
+          node <<'EOF'
+          const fs = require("fs");
+
+          const URL = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?allowCountries=BR&country=BR&locale=pt-BR";
+
+          async function run() {
+            const res = await fetch(URL);
+            const data = await res.json();
+
+            const now = new Date();
+
+            const elements =
+              data?.data?.Catalog?.searchStore?.elements || [];
+
+            const games = [];
+
+            for (const el of elements) {
+              const price = el?.price?.totalPrice?.discountPrice;
+              if (price !== 0) continue;
+
+              const promos = el?.promotions;
+              let status = null;
+              let startDate = null;
+              let endDate = null;
+
+              if (promos?.promotionalOffers?.length) {
+                const p = promos.promotionalOffers[0].promotionalOffers[0];
+                const start = new Date(p.startDate);
+                const end = new Date(p.endDate);
+                if (now >= start && now <= end) {
+                  status = "FREE_NOW";
+                  startDate = p.startDate;
+                  endDate = p.endDate;
+                }
+              }
+
+              if (!status && promos?.upcomingPromotionalOffers?.length) {
+                const p = promos.upcomingPromotionalOffers[0].promotionalOffers[0];
+                status = "FREE_SOON";
+                startDate = p.startDate;
+                endDate = p.endDate;
+              }
+
+              if (!status) continue;
+
+              const slug =
+                el.productSlug && el.productSlug !== "[]"
+                  ? el.productSlug
+                  : el.urlSlug;
+
+              const claimUrl = slug
+                ? `https://store.epicgames.com/pt-BR/p/${slug}`
+                : "https://store.epicgames.com/pt-BR/free-games";
+
+              const image =
+                el.keyImages?.find(i => i.type === "OfferImageTall")
+                  ?.url ||
+                el.keyImages?.[0]?.url ||
+                null;
+
+              games.push({
+                store: "EPIC",
+                title: el.title,
+                status,
+                startDate,
+                endDate,
+                claimUrl,
+                imageUrl: image,
+                raw: {
+                  id: el.id,
+                  namespace: el.namespace
+                }
+              });
+            }
+
+            fs.writeFileSync(
+              "games.json",
+              JSON.stringify(games, null, 2)
+            );
+
+            console.log(`Gerado games.json com ${games.length} item(s).`);
+          }
+
+          run();
+          EOF
+
+      - name: Commitar se houve mudança
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add games.json
+          git diff --cached --quiet || git commit -m "Atualizar jogos grátis (Epic)"
+          git push
