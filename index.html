@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biblioteca de Jogos Grátis</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #0b0b0f; color: #fff; }
+    header { padding: 16px; background: #12121a; position: sticky; top: 0; border-bottom: 1px solid #222; }
+    h1 { margin: 0; font-size: 18px; }
+    main { padding: 16px; max-width: 900px; margin: 0 auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+    .card { background: #12121a; border: 1px solid #222; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
+    .img { width: 100%; aspect-ratio: 3/4; object-fit: cover; background: #0f0f16; }
+    .content { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+    .title { font-weight: 700; line-height: 1.2; }
+    .meta { font-size: 12px; opacity: .85; display: flex; gap: 8px; flex-wrap: wrap; }
+    .badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid #2a2a35; background: #181824; }
+    .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    a.btn { text-decoration: none; color: #fff; background: #2d6cdf; padding: 10px 12px; border-radius: 10px; display: inline-block; text-align: center; }
+    a.btn:active { transform: translateY(1px); }
+    .small { font-size: 12px; opacity: .8; }
+    .error { background: #2a0f12; border: 1px solid #5a1a22; padding: 12px; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Biblioteca de Jogos Grátis</h1>
+  </header>
+
+  <main>
+    <div id="status" class="small">Carregando jogos...</div>
+    <div id="grid" class="grid" style="margin-top:12px;"></div>
+  </main>
+
+  <script>
+    function formatDate(iso) {
+      try {
+        const d = new Date(iso);
+        return d.toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+      } catch {
+        return iso;
+      }
+    }
+
+    function badgeText(status) {
+      if (status === "FREE_NOW") return "✅ Grátis agora";
+      if (status === "FREE_SOON") return "⏳ Grátis em breve";
+      return status;
+    }
+
+    async function load() {
+      const statusEl = document.getElementById("status");
+      const grid = document.getElementById("grid");
+
+      try {
+        const res = await fetch("./games.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("Falha ao carregar games.json: " + res.status);
+        const games = await res.json();
+
+        statusEl.textContent = `${games.length} item(ns) carregado(s).`;
+
+        for (const g of games) {
+          const card = document.createElement("div");
+          card.className = "card";
+
+          const img = document.createElement("img");
+          img.className = "img";
+          img.src = g.imageUrl || "";
+          img.alt = g.title || "Jogo";
+          img.loading = "lazy";
+
+          const content = document.createElement("div");
+          content.className = "content";
+
+          const title = document.createElement("div");
+          title.className = "title";
+          title.textContent = g.title || "(sem título)";
+
+          const meta = document.createElement("div");
+          meta.className = "meta";
+          meta.innerHTML = `
+            <span class="badge">${g.store || "?"}</span>
+            <span class="badge">${badgeText(g.status)}</span>
+          `;
+
+          const row = document.createElement("div");
+          row.className = "row";
+
+          const dates = document.createElement("div");
+          dates.className = "small";
+          dates.innerHTML = `
+            Início: ${formatDate(g.startDate)}<br>
+            Fim: ${formatDate(g.endDate)}
+          `;
+
+          const btn = document.createElement("a");
+          btn.className = "btn";
+          btn.href = g.claimUrl || "#";
+          btn.target = "_blank";
+          btn.rel = "noopener noreferrer";
+          btn.textContent = "Resgatar";
+
+          row.appendChild(dates);
+          row.appendChild(btn);
+
+          content.appendChild(title);
+          content.appendChild(meta);
+          content.appendChild(row);
+
+          card.appendChild(img);
+          card.appendChild(content);
+
+          grid.appendChild(card);
+        }
+      } catch (err) {
+        statusEl.innerHTML = `<div class="error">Erro: ${String(err.message || err)}</div>`;
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
