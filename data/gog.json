@@ -1,1 +1,425 @@
-[]
+[
+  {
+    "store": "GOG",
+    "title": "Betrayer",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/betrayer",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Dink Smallwood HD",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/dink_smallwood_hd",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "The Elder Scrolls II: Daggerfall",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/the_elder_scrolls_chapter_ii_daggerfall",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "The Elder Scrolls: Arena",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/the_elder_scrolls_arena",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Fall of Porcupine: Prologue",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/fall_of_porcupine_prologue",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Urbek City Builder Prologue",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/urbek_city_builder_prologue",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Loria",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/loria",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "OpenTTD",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/openttd",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Samorost 1",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/samorost_1",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "POSTAL: Classic and Uncut",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/postal_classic_and_uncut",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "War Wind ",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/war_wind",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Ascendant",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/ascendant",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Akalabeth: World of Doom",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/akalabeth_world_of_doom",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Beneath a Steel Sky (1994)",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/beneath_a_steel_sky",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Bio Menace",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/bio_menace",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "CAYNE",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/cayne",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Dagon: by H. P. Lovecraft",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/dagon_by_h_p_lovecraft",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "The Darkest Tales - Into the Nightmare",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/the_darkest_tales_into_the_nightmare",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Delores: A Thimbleweed Park Mini-Adventure",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/delores_a_thimbleweed_park_miniadventure",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Doomdark's Revenge",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/doomdarks_revenge",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Eschalon: Book I",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/eschalon_book_i",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Flight of the Amazon Queen",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/flight_of_the_amazon_queen",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "GWENT: The Witcher Card Game",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/gwent_the_witcher_card_game",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Hello Neighbor Alpha Version",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/hello_neighbor_demo",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Hellpoint: The Thespian Feast",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/hellpoint_the_thespian_feast",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Higurashi When They Cry Hou - Ch.1 Onikakushi",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/higurashi_when_they_cry_hou_ch1_onikakushi",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Janosik",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/janosik",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Jill of the Jungle: The Complete Trilogy",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/jill_of_the_jungle_the_complete_trilogy",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "The Life and Suffering of Sir Brante - Chapter 1 & 2",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/the_life_and_suffering_of_sir_brante_chapter_12",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "The Lords of Midnight",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/the_lords_of_midnight",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Lure of the Temptress (1992)",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/lure_of_the_temptress",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Martial Law",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/martial_law",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Nomads of Driftland",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/nomads_of_driftland",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Our Life: Beginnings & Always",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/our_life_beginnings_always",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Overload - Playable Teaser",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/overload_playable_teaser",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Quake II RTX",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/quake_ii_rtx",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Sang-Froid: Tales of Werewolves",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/sangfroid_tales_of_werewolves",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Shadow Warrior Classic Complete",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/shadow_warrior_complete",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Shores Unknown: Arrival",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/shores_unknown_demo",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Stargunner",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/stargunner",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Sunrider: Mask of Arcadius",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/sunrider_mask_of_arcadius",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Teenagent",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/teenagent",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Treasure Adventure Game",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/treasure_adventure_game",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Tyrian 2000",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/tyrian_2000",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Ultima\\u2122 IV: Quest of the Avatar",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/ultima_iv_quest_of_the_avatar",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Ultima\\u2122 Worlds of Adventure 2: Martian Dreams",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/ultima_worlds_of_adventure_2_martian_dreams",
+    "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Worlds of Ultima\\u2122: The Savage Empire",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/worlds_of_ultima_the_savage_empire",
+    "imageUrl": null
+  }
+]
