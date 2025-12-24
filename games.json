@@ -1,21 +1,8 @@
 [
   {
     "store": "EPIC",
-    "title": "Bloodstained: Ritual of the Night",
-    "status": "FREE_NOW",
-    "startDate": "2025-12-23T16:00:00.000Z",
-    "endDate": "2025-12-24T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/bloodstained-f3f575",
-    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec23_giveaway_1200x16001_1200x1600-a17a8a849f0a46a1be302914bfe7b727",
-    "raw": {
-      "id": "5bd273500337498dbb9e4f55b44f997c",
-      "namespace": "d5241c76f178492ea1540fce45616757"
-    }
-  },
-  {
-    "store": "EPIC",
     "title": "The Callisto Protocol",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2025-12-24T16:00:00.000Z",
     "endDate": "2025-12-25T16:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/the-callisto-protocol",
