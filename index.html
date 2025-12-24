@@ -4,25 +4,126 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Biblioteca de Jogos Grátis</title>
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #0b0b0f; color: #fff; }
-    header { padding: 16px; background: #12121a; position: sticky; top: 0; border-bottom: 1px solid #222; }
-    h1 { margin: 0; font-size: 18px; }
-    main { padding: 16px; max-width: 900px; margin: 0 auto; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
-    .card { background: #12121a; border: 1px solid #222; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 18px rgba(0,0,0,.35); }
-    .img { width: 100%; aspect-ratio: 3/4; object-fit: cover; background: #0f0f16; }
-    .content { padding: 12px; display: flex; flex-direction: column; gap: 8px; }
-    .title { font-weight: 700; line-height: 1.2; }
-    .meta { font-size: 12px; opacity: .85; display: flex; gap: 8px; flex-wrap: wrap; }
-    .badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid #2a2a35; background: #181824; }
-    .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-    a.btn { text-decoration: none; color: #fff; background: #2d6cdf; padding: 10px 12px; border-radius: 10px; display: inline-block; text-align: center; }
-    a.btn:active { transform: translateY(1px); }
-    .small { font-size: 12px; opacity: .8; }
-    .error { background: #2a0f12; border: 1px solid #5a1a22; padding: 12px; border-radius: 12px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0b0b0f;
+      color: #fff;
+    }
+
+    header {
+      padding: 16px;
+      background: #12121a;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #222;
+      z-index: 10;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    main {
+      padding: 16px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .card {
+      background: #12121a;
+      border: 1px solid #222;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0,0,0,.35);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      background: #0f0f16;
+    }
+
+    .content {
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+
+    .title {
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .meta {
+      font-size: 12px;
+      opacity: .85;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid #2a2a35;
+      background: #181824;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    a.btn {
+      text-decoration: none;
+      color: #fff;
+      background: #2d6cdf;
+      padding: 10px 12px;
+      border-radius: 10px;
+      display: inline-block;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    a.btn:active {
+      transform: translateY(1px);
+    }
+
+    .small {
+      font-size: 12px;
+      opacity: .8;
+    }
+
+    .error {
+      background: #2a0f12;
+      border: 1px solid #5a1a22;
+      padding: 12px;
+      border-radius: 12px;
+      margin-top: 12px;
+    }
   </style>
 </head>
+
 <body>
   <header>
     <h1>🎮 Biblioteca de Jogos Grátis</h1>
@@ -30,14 +131,18 @@
 
   <main>
     <div id="status" class="small">Carregando jogos...</div>
-    <div id="grid" class="grid" style="margin-top:12px;"></div>
+    <div id="grid" class="grid"></div>
   </main>
 
   <script>
     function formatDate(iso) {
+      if (!iso) return "-";
       try {
         const d = new Date(iso);
-        return d.toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+        return d.toLocaleString("pt-BR", {
+          dateStyle: "short",
+          timeStyle: "short"
+        });
       } catch {
         return iso;
       }
@@ -46,7 +151,7 @@
     function badgeText(status) {
       if (status === "FREE_NOW") return "✅ Grátis agora";
       if (status === "FREE_SOON") return "⏳ Grátis em breve";
-      return status;
+      return status || "?";
     }
 
     async function load() {
@@ -54,11 +159,21 @@
       const grid = document.getElementById("grid");
 
       try {
-        const res = await fetch("./games.json", { cache: "no-store" });
-        if (!res.ok) throw new Error("Falha ao carregar games.json: " + res.status);
-        const games = await res.json();
+        const [epicRes, gogRes] = await Promise.all([
+          fetch("./games.json", { cache: "no-store" }),
+          fetch("./data/gog.json", { cache: "no-store" })
+        ]);
 
-        statusEl.textContent = `${games.length} item(ns) carregado(s).`;
+        if (!epicRes.ok) throw new Error("Falha ao carregar games.json (Epic)");
+        if (!gogRes.ok) throw new Error("Falha ao carregar data/gog.json (GOG)");
+
+        const epicGames = await epicRes.json();
+        const gogGames = await gogRes.json();
+
+        const games = [...epicGames, ...gogGames];
+
+        statusEl.textContent = `${games.length} jogo(s) grátis carregado(s).`;
+        grid.innerHTML = "";
 
         for (const g of games) {
           const card = document.createElement("div");
@@ -114,7 +229,7 @@
           grid.appendChild(card);
         }
       } catch (err) {
-        statusEl.innerHTML = `<div class="error">Erro: ${String(err.message || err)}</div>`;
+        statusEl.innerHTML = `<div class="error">Erro: ${err.message || err}</div>`;
       }
     }
 
