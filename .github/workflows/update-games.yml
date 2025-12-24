@@ -18,92 +18,78 @@ jobs:
         with:
           node-version: 20
 
-      - name: Buscar Epic e gerar games.json
+            - name: Baixar JSON da Epic (curl)
+        run: |
+          curl -L --fail -o epic.json "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?allowCountries=BR&country=BR&locale=pt-BR"
+
+      - name: Gerar games.json a partir do epic.json
         run: |
           node <<'EOF'
           const fs = require("fs");
 
-          const URL = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?allowCountries=BR&country=BR&locale=pt-BR";
+          const data = JSON.parse(fs.readFileSync("epic.json", "utf8"));
+          const now = new Date();
 
-          async function run() {
-            const res = await fetch(URL);
-            const data = await res.json();
+          const elements = data?.data?.Catalog?.searchStore?.elements || [];
+          const games = [];
 
-            const now = new Date();
+          for (const el of elements) {
+            const price = el?.price?.totalPrice?.discountPrice;
+            if (price !== 0) continue;
 
-            const elements =
-              data?.data?.Catalog?.searchStore?.elements || [];
+            const promos = el?.promotions;
+            let status = null;
+            let startDate = null;
+            let endDate = null;
 
-            const games = [];
-
-            for (const el of elements) {
-              const price = el?.price?.totalPrice?.discountPrice;
-              if (price !== 0) continue;
-
-              const promos = el?.promotions;
-              let status = null;
-              let startDate = null;
-              let endDate = null;
-
-              if (promos?.promotionalOffers?.length) {
-                const p = promos.promotionalOffers[0].promotionalOffers[0];
-                const start = new Date(p.startDate);
-                const end = new Date(p.endDate);
-                if (now >= start && now <= end) {
-                  status = "FREE_NOW";
-                  startDate = p.startDate;
-                  endDate = p.endDate;
-                }
-              }
-
-              if (!status && promos?.upcomingPromotionalOffers?.length) {
-                const p = promos.upcomingPromotionalOffers[0].promotionalOffers[0];
-                status = "FREE_SOON";
+            if (promos?.promotionalOffers?.length) {
+              const p = promos.promotionalOffers[0].promotionalOffers[0];
+              const start = new Date(p.startDate);
+              const end = new Date(p.endDate);
+              if (now >= start && now <= end) {
+                status = "FREE_NOW";
                 startDate = p.startDate;
                 endDate = p.endDate;
               }
-
-              if (!status) continue;
-
-              const slug =
-                el.productSlug && el.productSlug !== "[]"
-                  ? el.productSlug
-                  : el.urlSlug;
-
-              const claimUrl = slug
-                ? `https://store.epicgames.com/pt-BR/p/${slug}`
-                : "https://store.epicgames.com/pt-BR/free-games";
-
-              const image =
-                el.keyImages?.find(i => i.type === "OfferImageTall")
-                  ?.url ||
-                el.keyImages?.[0]?.url ||
-                null;
-
-              games.push({
-                store: "EPIC",
-                title: el.title,
-                status,
-                startDate,
-                endDate,
-                claimUrl,
-                imageUrl: image,
-                raw: {
-                  id: el.id,
-                  namespace: el.namespace
-                }
-              });
             }
 
-            fs.writeFileSync(
-              "games.json",
-              JSON.stringify(games, null, 2)
-            );
+            if (!status && promos?.upcomingPromotionalOffers?.length) {
+              const p = promos.upcomingPromotionalOffers[0].promotionalOffers[0];
+              status = "FREE_SOON";
+              startDate = p.startDate;
+              endDate = p.endDate;
+            }
 
-            console.log(`Gerado games.json com ${games.length} item(s).`);
+            if (!status) continue;
+
+            const slug =
+              el.productSlug && el.productSlug !== "[]"
+                ? el.productSlug
+                : el.urlSlug;
+
+            const claimUrl = slug
+              ? `https://store.epicgames.com/pt-BR/p/${slug}`
+              : "https://store.epicgames.com/pt-BR/free-games";
+
+            const image =
+              el.keyImages?.find(i => i.type === "OfferImageTall")?.url ||
+              el.keyImages?.[0]?.url ||
+              null;
+
+            games.push({
+              store: "EPIC",
+              title: el.title,
+              status,
+              startDate,
+              endDate,
+              claimUrl,
+              imageUrl: image,
+              raw: { id: el.id, namespace: el.namespace }
+            });
           }
 
-          run();
+          fs.writeFileSync("games.json", JSON.stringify(games, null, 2));
+          console.log(`Gerado games.json com ${games.length} item(s).`);
           EOF
 
       - name: Commitar se houve mudança
