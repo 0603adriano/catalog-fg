@@ -1,0 +1,66 @@
+name: Atualizar jogos grátis (GOG)
+
+on:
+  schedule:
+    - cron: "15 */1 * * *" # a cada hora, minuto 15
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Usar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Baixar página de jogos grátis da GOG
+        run: |
+          curl -L --fail -o gog.html "https://www.gog.com/en/partner/free_games"
+
+      - name: Gerar data/gog.json
+        run: |
+          node <<'EOF'
+          const fs = require("fs");
+
+          const html = fs.readFileSync("gog.html", "utf8");
+
+          // Extração simples e defensiva
+          const matches = [...html.matchAll(/"title":"([^"]+)".+?"url":"([^"]+)"/g)];
+
+          const seen = new Set();
+          const games = [];
+
+          for (const m of matches) {
+            const title = m[1];
+            const url = m[2];
+
+            if (seen.has(title)) continue;
+            seen.add(title);
+
+            games.push({
+              store: "GOG",
+              title,
+              status: "FREE_NOW",
+              startDate: null,
+              endDate: null,
+              claimUrl: `https://www.gog.com${url}`,
+              imageUrl: null
+            });
+          }
+
+          fs.writeFileSync("data/gog.json", JSON.stringify(games, null, 2));
+          console.log(`Gerado data/gog.json com ${games.length} item(s).`);
+          EOF
+
+      - name: Commitar se houve mudança
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/gog.json
+          git diff --cached --quiet || git commit -m "Atualizar jogos grátis (GOG)"
+          git push
