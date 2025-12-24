@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 20
 
-            - name: Baixar JSON da Epic (curl)
+      - name: Baixar JSON da Epic (curl)
         run: |
           curl -L --fail -o epic.json "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?allowCountries=BR&country=BR&locale=pt-BR"
 
