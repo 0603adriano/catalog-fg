@@ -1,21 +1,8 @@
 [
   {
     "store": "EPIC",
-    "title": "Disco Elysium - The Final Cut",
-    "status": "FREE_NOW",
-    "startDate": "2025-12-25T16:00:00.000Z",
-    "endDate": "2025-12-26T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/disco-elysium",
-    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec25_giveaway_1200x1600_1200x1600-1e7a28e3970e4076b8e0e6bb9940e64f",
-    "raw": {
-      "id": "0afb2607f1ac42e1b2c8f01791a505d3",
-      "namespace": "d5241c76f178492ea1540fce45616757"
-    }
-  },
-  {
-    "store": "EPIC",
     "title": "We Were Here Together",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2025-12-26T16:00:00.000Z",
     "endDate": "2025-12-27T16:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/we-were-here-together-6a6d66",
