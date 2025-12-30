@@ -1,25 +1,12 @@
 [
   {
     "store": "EPIC",
-    "title": "Viewfinder",
+    "title": "Trine Classic Collection",
     "status": "FREE_NOW",
-    "startDate": "2025-12-29T16:00:00.000Z",
-    "endDate": "2025-12-30T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/viewfinder-61691c",
-    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec29_giveaway_1200x1600_1200x1600-b9358f6d973f45e79e5c51388acd1608",
-    "raw": {
-      "id": "10295136a02b412c9615ceca50e64704",
-      "namespace": "d5241c76f178492ea1540fce45616757"
-    }
-  },
-  {
-    "store": "EPIC",
-    "title": "Mystery Game 14",
-    "status": "FREE_SOON",
     "startDate": "2025-12-30T16:00:00.000Z",
     "endDate": "2025-12-31T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/mysterygame2025-14",
-    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/trine-classic-collection",
+    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec30_giveaway_1200x1600_1200x1600-8b1d9adf2b8046deb95064c171adbd1c",
     "raw": {
       "id": "ba12b3d0fde94f1cafec8e8d5dd3fe67",
       "namespace": "d5241c76f178492ea1540fce45616757"
