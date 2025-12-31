@@ -1,21 +1,8 @@
 [
   {
     "store": "EPIC",
-    "title": "Trine Classic Collection",
-    "status": "FREE_NOW",
-    "startDate": "2025-12-30T16:00:00.000Z",
-    "endDate": "2025-12-31T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/trine-classic-collection",
-    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec30_giveaway_1200x1600_1200x1600-8b1d9adf2b8046deb95064c171adbd1c",
-    "raw": {
-      "id": "ba12b3d0fde94f1cafec8e8d5dd3fe67",
-      "namespace": "d5241c76f178492ea1540fce45616757"
-    }
-  },
-  {
-    "store": "EPIC",
     "title": "Chivalry 2",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2025-12-31T16:00:00.000Z",
     "endDate": "2026-01-01T16:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/chivalry-2",
