@@ -1,28 +1,15 @@
 [
   {
     "store": "EPIC",
-    "title": "Styx: Master of Shadows",
+    "title": "Rustler - Grand Theft Horse",
     "status": "FREE_NOW",
-    "startDate": "2026-01-15T16:00:00.000Z",
-    "endDate": "2026-01-22T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/0aa23c9aff4045d7b4b9b5ccc06b5c03",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-kdzzu.jpg",
+    "startDate": "2026-01-22T16:00:00.000Z",
+    "endDate": "2026-01-29T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/rustler-grand-theft-horse",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-psdse.jpg",
     "raw": {
-      "id": "ed109adce3c042f792f48d629221ac8b",
-      "namespace": "962cf46ed59b42c1a16834193a7cde54"
-    }
-  },
-  {
-    "store": "EPIC",
-    "title": "Styx: Shards of Darkness - Deluxe Edition",
-    "status": "FREE_NOW",
-    "startDate": "2026-01-15T16:00:00.000Z",
-    "endDate": "2026-01-22T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/81e2a51d2be949b986993cdca25f4d7d",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-14ih5.jpg",
-    "raw": {
-      "id": "9b99ffa5a53e4317824f4ccb2b6e68d2",
-      "namespace": "795fdebb6c6e497d98cee43057286743"
+      "id": "3d10f32b87b94b769524cd44a12e634a",
+      "namespace": "aca2ee0619aa482791f0a71dbf3eeac0"
     }
   }
 ]
