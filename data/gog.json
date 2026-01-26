@@ -421,5 +421,14 @@
     "endDate": null,
     "claimUrl": "https://www.gog.com\\/en\\/game\\/worlds_of_ultima_the_savage_empire",
     "imageUrl": null
+  },
+  {
+    "store": "GOG",
+    "title": "Heroine's Quest: The Herald of Ragnarok",
+    "status": "FREE_NOW",
+    "startDate": null,
+    "endDate": null,
+    "claimUrl": "https://www.gog.com\\/en\\/game\\/heroines_quest_the_herald_of_ragnarok",
+    "imageUrl": null
   }
 ]
