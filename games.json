@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Botany Manor",
+    "title": "The Darkside Detective A Fumble in the Dark",
     "status": "FREE_NOW",
-    "startDate": "2026-02-08T21:00:00.000Z",
-    "endDate": "2026-02-22T21:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/61eca1a9e42243d29e93b02510d88d83",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-8e6i5.jpg",
+    "startDate": "2026-02-12T16:00:00.000Z",
+    "endDate": "2026-02-19T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/b87bb60e2398412e82ba540e50ac6222",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/download-the-darkside-detective-a-fumble-in-the-dark-offer-1kw13.jpg",
     "raw": {
-      "id": "855a903d4f694353ac20f74321f6e400",
-      "namespace": "969bbfac9e7840a986c1d594ccd55c01"
+      "id": "9e3c580751a94c6d8a1b8b08b2e3d21f",
+      "namespace": "87375f89fc4c4c7a8c681cf21febee06"
     }
   },
   {
     "store": "EPIC",
-    "title": "Conjunto Retrô Venenoso",
+    "title": "Nobody Wants to Die",
     "status": "FREE_NOW",
-    "startDate": "2026-02-05T16:00:00.000Z",
-    "endDate": "2026-02-12T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/poison-retro-set",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-118gs.png",
+    "startDate": "2026-02-12T16:00:00.000Z",
+    "endDate": "2026-02-19T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/eea910991d674322b3832f9b7bbefb7b",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-kp3sf.jpg",
     "raw": {
-      "id": "f643a600e99c43cca99d1ca37b41fe33",
-      "namespace": "964bca52db2845498a7040b3733c4441"
+      "id": "9da459f7c3984877bd5a12bdc3b6b3af",
+      "namespace": "60b8d9b4c2be4e34aeec311c953c2ee2"
     }
   }
 ]
