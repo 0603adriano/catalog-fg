@@ -1,28 +1,41 @@
 [
   {
     "store": "EPIC",
-    "title": "Return to Ash",
-    "status": "FREE_NOW",
-    "startDate": "2026-02-19T16:00:00.000Z",
-    "endDate": "2026-02-26T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/return-to-ash",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-z874e.png",
+    "title": "Idle Champions of the Forgotten Realms",
+    "status": "FREE_SOON",
+    "startDate": "2026-03-05T16:00:00.000Z",
+    "endDate": "2026-03-12T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/idle-champions-of-the-forgotten-realms",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1kami.jpg",
     "raw": {
-      "id": "06cd7ef2079646dcb6c5b04e04e1d676",
-      "namespace": "511a5b709ee242fb9603378b071d99d7"
+      "id": "a9748abde1c94b66aae5250bb9fc5503",
+      "namespace": "7e508f543b05465abe3a935960eb70ac"
     }
   },
   {
     "store": "EPIC",
-    "title": "STALCRAFT: X Starter Edition",
+    "title": "Boxes: Lost Fragments",
     "status": "FREE_NOW",
-    "startDate": "2026-02-19T16:00:00.000Z",
-    "endDate": "2026-02-26T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/stalcraft-x-starter-edition",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-2ckdu.png",
+    "startDate": "2026-02-26T16:00:00.000Z",
+    "endDate": "2026-03-05T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/a9ef6e969aa249ef936923216909d747",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-1m9c2.png",
     "raw": {
-      "id": "d6111db209c34b068736ca33411c9209",
-      "namespace": "1319020a7c08408489d4dc9c5b1df4c0"
+      "id": "14bd618815aa43209a3613e5bc2c2274",
+      "namespace": "abc34708e5a0420287f52302582e3fec"
+    }
+  },
+  {
+    "store": "EPIC",
+    "title": "My Night Job",
+    "status": "FREE_NOW",
+    "startDate": "2026-02-26T16:00:00.000Z",
+    "endDate": "2026-03-05T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/bce593b9b8754aa595ae4123f36ad4a9",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-907en.jpg",
+    "raw": {
+      "id": "0c9ceba4cc60473f97510ab2514a4b6e",
+      "namespace": "08e225ed73a2433198c025de20ec8173"
     }
   }
 ]
