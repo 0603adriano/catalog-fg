@@ -2,7 +2,7 @@
   {
     "store": "EPIC",
     "title": "Idle Champions of the Forgotten Realms",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2026-03-05T16:00:00.000Z",
     "endDate": "2026-03-12T15:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/idle-champions-of-the-forgotten-realms",
@@ -14,28 +14,15 @@
   },
   {
     "store": "EPIC",
-    "title": "Boxes: Lost Fragments",
+    "title": "Turnip Boy Robs a Bank",
     "status": "FREE_NOW",
-    "startDate": "2026-02-26T16:00:00.000Z",
-    "endDate": "2026-03-05T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/a9ef6e969aa249ef936923216909d747",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-1m9c2.png",
+    "startDate": "2026-03-05T16:00:00.000Z",
+    "endDate": "2026-03-12T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/000ff62d1877415589bb126e900a88e8",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-1gqxf.png",
     "raw": {
-      "id": "14bd618815aa43209a3613e5bc2c2274",
-      "namespace": "abc34708e5a0420287f52302582e3fec"
-    }
-  },
-  {
-    "store": "EPIC",
-    "title": "My Night Job",
-    "status": "FREE_NOW",
-    "startDate": "2026-02-26T16:00:00.000Z",
-    "endDate": "2026-03-05T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/bce593b9b8754aa595ae4123f36ad4a9",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-907en.jpg",
-    "raw": {
-      "id": "0c9ceba4cc60473f97510ab2514a4b6e",
-      "namespace": "08e225ed73a2433198c025de20ec8173"
+      "id": "68d9f0e261464ba284e10418d98532ea",
+      "namespace": "263de26be57d43528bb9c7fdb133b9fe"
     }
   }
 ]
