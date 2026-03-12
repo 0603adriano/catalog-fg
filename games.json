@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Idle Champions of the Forgotten Realms",
+    "title": "Cozy Grove",
     "status": "FREE_NOW",
-    "startDate": "2026-03-05T16:00:00.000Z",
-    "endDate": "2026-03-12T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/idle-champions-of-the-forgotten-realms",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-uewcu.jpg",
+    "startDate": "2026-03-12T15:00:00.000Z",
+    "endDate": "2026-03-19T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/cozy-grove",
+    "imageUrl": "https://cdn1.epicgames.com/768ec2d3b5114ac4a800631b12ee3f31/offer/CG.2-1200x1600-6b8cbe5523543a3d16aa1d0aef8f188d.jpg",
     "raw": {
-      "id": "a9748abde1c94b66aae5250bb9fc5503",
-      "namespace": "7e508f543b05465abe3a935960eb70ac"
+      "id": "c367569acede446995c5a3663e993446",
+      "namespace": "768ec2d3b5114ac4a800631b12ee3f31"
     }
   },
   {
     "store": "EPIC",
-    "title": "Turnip Boy Robs a Bank",
+    "title": "Isonzo",
     "status": "FREE_NOW",
-    "startDate": "2026-03-05T16:00:00.000Z",
-    "endDate": "2026-03-12T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/000ff62d1877415589bb126e900a88e8",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-1gqxf.png",
+    "startDate": "2026-03-12T15:00:00.000Z",
+    "endDate": "2026-03-19T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/isonzo",
+    "imageUrl": "https://cdn1.epicgames.com/offer/30de69013f3b41b0ba594a8ef3b693ba/EGS_Isonzo_BlackMillGames_S2_1200x1600-1225b5b75f29ea6723fcb23b2f3fae46",
     "raw": {
-      "id": "68d9f0e261464ba284e10418d98532ea",
-      "namespace": "263de26be57d43528bb9c7fdb133b9fe"
+      "id": "4889207626a44fed973f5e72ae79ce9d",
+      "namespace": "30de69013f3b41b0ba594a8ef3b693ba"
     }
   }
 ]
