@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Cozy Grove",
+    "title": "Electrician Simulator",
     "status": "FREE_NOW",
-    "startDate": "2026-03-12T15:00:00.000Z",
-    "endDate": "2026-03-19T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/cozy-grove",
-    "imageUrl": "https://cdn1.epicgames.com/768ec2d3b5114ac4a800631b12ee3f31/offer/CG.2-1200x1600-6b8cbe5523543a3d16aa1d0aef8f188d.jpg",
+    "startDate": "2026-03-19T15:00:00.000Z",
+    "endDate": "2026-03-26T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/d4645b0dc574438e95d20c6a31d3a0f7",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-musl9.png",
     "raw": {
-      "id": "c367569acede446995c5a3663e993446",
-      "namespace": "768ec2d3b5114ac4a800631b12ee3f31"
+      "id": "b3d56c3e27fc4816bf6cc0cefecd4948",
+      "namespace": "d400b874b09b4cd49d149358c67aa453"
     }
   },
   {
     "store": "EPIC",
-    "title": "Isonzo",
+    "title": "World of Warships – Pacote Tachibana de Aniversário Épico",
     "status": "FREE_NOW",
-    "startDate": "2026-03-12T15:00:00.000Z",
-    "endDate": "2026-03-19T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/isonzo",
-    "imageUrl": "https://cdn1.epicgames.com/offer/30de69013f3b41b0ba594a8ef3b693ba/EGS_Isonzo_BlackMillGames_S2_1200x1600-1225b5b75f29ea6723fcb23b2f3fae46",
+    "startDate": "2026-03-19T15:00:00.000Z",
+    "endDate": "2026-03-26T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/world-of-warships-tachibana-lima-pack",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-tll35.png",
     "raw": {
-      "id": "4889207626a44fed973f5e72ae79ce9d",
-      "namespace": "30de69013f3b41b0ba594a8ef3b693ba"
+      "id": "d3b29bd0dac74187970db0d79bf4b18e",
+      "namespace": "84c76746bce94effb8e1047fabfd7eb7"
     }
   }
 ]
