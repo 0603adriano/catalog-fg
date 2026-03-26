@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Electrician Simulator",
+    "title": "Hyper Echelon",
     "status": "FREE_NOW",
-    "startDate": "2026-03-19T15:00:00.000Z",
-    "endDate": "2026-03-26T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/d4645b0dc574438e95d20c6a31d3a0f7",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-musl9.png",
+    "startDate": "2026-03-26T15:00:00.000Z",
+    "endDate": "2026-04-02T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/39e8285c09224707ab83d5c256e9b41b",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-11w7f.png",
     "raw": {
-      "id": "b3d56c3e27fc4816bf6cc0cefecd4948",
-      "namespace": "d400b874b09b4cd49d149358c67aa453"
+      "id": "5d15c054641543c9a535b3b4ac29e843",
+      "namespace": "5ffdf739f9b549ebba9caf3596e7c632"
     }
   },
   {
     "store": "EPIC",
-    "title": "World of Warships – Pacote Tachibana de Aniversário Épico",
+    "title": "Havendock",
     "status": "FREE_NOW",
-    "startDate": "2026-03-19T15:00:00.000Z",
-    "endDate": "2026-03-26T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/world-of-warships-tachibana-lima-pack",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-tll35.png",
+    "startDate": "2026-03-26T15:00:00.000Z",
+    "endDate": "2026-04-02T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/454bc0b5893f46a885bd86a6589ee67a",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-xml9y.png",
     "raw": {
-      "id": "d3b29bd0dac74187970db0d79bf4b18e",
-      "namespace": "84c76746bce94effb8e1047fabfd7eb7"
+      "id": "d7b336a5c49f4a14b16359193caeb296",
+      "namespace": "dc6b31eb3a7540f28ccff83204aa1c3d"
     }
   }
 ]
