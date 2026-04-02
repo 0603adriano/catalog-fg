@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Hyper Echelon",
+    "title": "Clone Drone in the Danger Zone",
     "status": "FREE_NOW",
-    "startDate": "2026-03-26T15:00:00.000Z",
-    "endDate": "2026-04-02T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/39e8285c09224707ab83d5c256e9b41b",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-11w7f.png",
+    "startDate": "2026-04-02T15:00:00.000Z",
+    "endDate": "2026-04-09T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/4d7e959581394dc4aee2039844753beb",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-m3gyg.png",
     "raw": {
-      "id": "5d15c054641543c9a535b3b4ac29e843",
-      "namespace": "5ffdf739f9b549ebba9caf3596e7c632"
+      "id": "c6479f31043943d0b1710cc5983f53c6",
+      "namespace": "59d27ef047494b999bf0b04ddc471a07"
     }
   },
   {
     "store": "EPIC",
-    "title": "Havendock",
+    "title": "TOMAK: Save the Earth Regeneration",
     "status": "FREE_NOW",
-    "startDate": "2026-03-26T15:00:00.000Z",
-    "endDate": "2026-04-02T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/454bc0b5893f46a885bd86a6589ee67a",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-xml9y.png",
+    "startDate": "2026-04-02T00:00:00.000Z",
+    "endDate": "2026-04-16T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/798328bff911452783523d61986170c0",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-myh89.png",
     "raw": {
-      "id": "d7b336a5c49f4a14b16359193caeb296",
-      "namespace": "dc6b31eb3a7540f28ccff83204aa1c3d"
+      "id": "9f67865fcf0749a58f4d35827473266f",
+      "namespace": "7de6896ed120435fba9433d2732dadb4"
     }
   }
 ]
