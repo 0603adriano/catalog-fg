@@ -6,7 +6,7 @@
     "startDate": "2026-04-30T15:00:00.000Z",
     "endDate": "2026-05-07T15:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/1185abfe7c554a1e8c528aba37bf3d0f",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1jpee.png",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-px9t4.png",
     "raw": {
       "id": "0623017cf9f341efbe07557f46beb4e8",
       "namespace": "bda8d2133655435982b9118972792328"
@@ -14,15 +14,15 @@
   },
   {
     "store": "EPIC",
-    "title": "The Stone of Madness",
+    "title": "DOOMBLADE",
     "status": "FREE_NOW",
-    "startDate": "2026-04-16T15:00:00.000Z",
-    "endDate": "2026-04-23T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/the-stone-of-madness",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-v4bor.jpg",
+    "startDate": "2026-04-23T15:00:00.000Z",
+    "endDate": "2026-04-30T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/ed9fee5cea29495394853e134f27a291",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-58nf8.jpg",
     "raw": {
-      "id": "3d11f228c8a442318bc17abf13f7db3b",
-      "namespace": "bc51d32ca88b41bda1e50f5876c0b16e"
+      "id": "9e7d6a034aaf450dacda4b51695d113a",
+      "namespace": "12a3a68913864eaa8420e575eb6dbd42"
     }
   }
 ]
