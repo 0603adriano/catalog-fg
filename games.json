@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Firestone Online Idle RPG",
+    "title": "Arranger: A Role-Puzzling Adventure",
     "status": "FREE_NOW",
-    "startDate": "2026-04-30T15:00:00.000Z",
-    "endDate": "2026-05-07T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/1185abfe7c554a1e8c528aba37bf3d0f",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-hafgt.png",
+    "startDate": "2026-05-07T15:00:00.000Z",
+    "endDate": "2026-05-14T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/8883fa6958a24a00b6f33166e4552833",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-1dhii.jpg",
     "raw": {
-      "id": "0623017cf9f341efbe07557f46beb4e8",
-      "namespace": "bda8d2133655435982b9118972792328"
+      "id": "4fb95c3f11754061b2b1a94e60d848bd",
+      "namespace": "2df8b055a5674c8e9211fc51f8efd210"
     }
   },
   {
     "store": "EPIC",
-    "title": "Oddsparks: An Automation Adventure",
+    "title": "Trash Goblin",
     "status": "FREE_NOW",
-    "startDate": "2026-04-30T15:00:00.000Z",
-    "endDate": "2026-05-07T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/e16c97c0da0b4e5aa507e930befb1a25",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-1mdut.png",
+    "startDate": "2026-05-07T15:00:00.000Z",
+    "endDate": "2026-05-14T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/7ea9b97f6a8b4c5d8047733207c5c65c",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-6n7xr.png",
     "raw": {
-      "id": "102da1ac6e864d7f84889f2c0a107ee2",
-      "namespace": "77c83b36cd1047f7aceeef2e5f84ab85"
+      "id": "40980262fdb24c149094f3febfe84cb6",
+      "namespace": "f14e8d865ad04b93a5df850ce7a59fe2"
     }
   },
   {
