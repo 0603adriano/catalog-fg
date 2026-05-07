@@ -24,5 +24,31 @@
       "id": "102da1ac6e864d7f84889f2c0a107ee2",
       "namespace": "77c83b36cd1047f7aceeef2e5f84ab85"
     }
+  },
+  {
+    "store": "EPIC",
+    "title": "Mystery Game 2",
+    "status": "FREE_SOON",
+    "startDate": "2026-05-14T15:00:00.000Z",
+    "endDate": "2026-05-21T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/megasale-mysterygame-2026-02",
+    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image24_1200x1600-bdc90908480d4d5a96ec4535855aeff3",
+    "raw": {
+      "id": "73a4416d5cdb42f682d504fdf48e987b",
+      "namespace": "d5241c76f178492ea1540fce45616757"
+    }
+  },
+  {
+    "store": "EPIC",
+    "title": "Mystery Game 1",
+    "status": "FREE_SOON",
+    "startDate": "2026-05-14T15:00:00.000Z",
+    "endDate": "2026-05-21T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/megasale-mysterygame-2026",
+    "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image24_1200x1600-bdc90908480d4d5a96ec4535855aeff3",
+    "raw": {
+      "id": "190cb955f17f48dcb8576aa8288c887f",
+      "namespace": "d5241c76f178492ea1540fce45616757"
+    }
   }
 ]
