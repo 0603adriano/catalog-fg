@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "The Ouroboros King",
+    "title": "Citizen Sleeper",
     "status": "FREE_NOW",
-    "startDate": "2026-06-11T15:00:00.000Z",
-    "endDate": "2026-06-18T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/the-ouroboros-king",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-1f4ei.jpg",
+    "startDate": "2026-06-18T15:00:00.000Z",
+    "endDate": "2026-06-25T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/da528841e0eb43d8b93fd243c6767b0c",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-a7mun.jpg",
     "raw": {
-      "id": "7f0ab2828f9743d0abc6612a11222fdf",
-      "namespace": "b002ccbe10f946f082a63bf85fa30558"
+      "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+      "namespace": "e4ef0c8c500a41eaa57c53d32410595d"
     }
   },
   {
     "store": "EPIC",
-    "title": "Warhammer 40K Speed Freeks",
+    "title": "ROBOBEAT",
     "status": "FREE_NOW",
-    "startDate": "2026-06-11T15:00:00.000Z",
-    "endDate": "2026-06-18T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/b28e038bd68b4e80840e7fb8b747de54",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1qfk9.png",
+    "startDate": "2026-06-18T15:00:00.000Z",
+    "endDate": "2026-06-25T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/4ee365fd76704f37ae3dc13676f1ac61",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-15z8d.png",
     "raw": {
-      "id": "eb6ae87e73d94d2c96bab3c4da4dd3de",
-      "namespace": "e64225d40c214f32a71ccf6a7a612d6b"
+      "id": "aee7ec395d054078a48d867849e2a550",
+      "namespace": "9704b88f02244a60b9b0ab81e0e31389"
     }
   }
 ]
