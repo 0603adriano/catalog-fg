@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Nova Lands",
+    "title": "Luto",
     "status": "FREE_NOW",
-    "startDate": "2026-07-09T15:00:00.000Z",
-    "endDate": "2026-07-16T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/acb83bd813054e599598de9e76f6d95d",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/download-nova-lands-offer-gtjce.png",
+    "startDate": "2026-07-16T15:00:00.000Z",
+    "endDate": "2026-07-23T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/67459b70a96e40ca96d5676d8a4fd8c5",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-6z9b4.png",
     "raw": {
-      "id": "e5da2c017d4d4afab9f4c56525b66100",
-      "namespace": "740ba4a6fbed4062a9c43d52c5996b0b"
+      "id": "c27f2bb0dd9b4c4ca4973e653ab8a5be",
+      "namespace": "9f3ffc77b7264d63859bfd9bc935c9f8"
     }
   },
   {
     "store": "EPIC",
-    "title": "Tattoo Tycoon",
+    "title": "Echo Generation: Midnight Edition",
     "status": "FREE_NOW",
-    "startDate": "2026-07-09T15:00:00.000Z",
-    "endDate": "2026-07-16T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/tattoo-tycoon",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-10uee.jpg",
+    "startDate": "2026-07-16T15:00:00.000Z",
+    "endDate": "2026-07-23T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/cbf3f5857ec241bab03dbb7eb03efad8",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-1b7uz.jpg",
     "raw": {
-      "id": "f247e0af293645bda266fa9957d82d62",
-      "namespace": "b0a2eaef9e8e4fca9d8f9d4aa26fed4d"
+      "id": "371545146a944478ad5a87f9b581ac29",
+      "namespace": "2c198b4055e64df698944727dbb561ea"
     }
   }
 ]
