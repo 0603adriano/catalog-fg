@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Beacon Pines",
+    "title": "Caravan SandWitch",
     "status": "FREE_NOW",
-    "startDate": "2026-08-06T15:00:00.000Z",
-    "endDate": "2026-08-13T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/9e9a438c651a49799c3ddd94a0c3f4c0",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/download-beacon-pines-offer-1ko2w.jpg",
+    "startDate": "2026-08-13T15:00:00.000Z",
+    "endDate": "2026-08-20T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/70e9a8a90305449a88a38b708399e605",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-fku42.jpg",
     "raw": {
-      "id": "871cc4ff18444059890a4d28653a62d5",
-      "namespace": "1c83ea77e736438f9852b31aeb4f7a20"
+      "id": "0e44600a079e419abbb291ccf5af9ee7",
+      "namespace": "45b137b2ecd14e01a54b52e575f1632d"
     }
   },
   {
     "store": "EPIC",
-    "title": "We Were Here Together",
-    "status": "FREE_NOW",
-    "startDate": "2026-08-06T15:00:00.000Z",
-    "endDate": "2026-08-13T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/a4bed38482a44c3d89029b0dbba42087",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-12ukl.png",
+    "title": "Pacote do Mago Épico",
+    "status": "FREE_SOON",
+    "startDate": "2026-08-20T15:00:00.000Z",
+    "endDate": "2026-08-27T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/epic-mage-bundle",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-8b7bz.png",
     "raw": {
-      "id": "231e8f6d250a453f9c44c0adf3a34656",
-      "namespace": "c5f6069e7dd644dab009294f0fddc7a7"
+      "id": "a802acab90af4a07952a07a9fa677f2f",
+      "namespace": "72520902fc594621b6daa5a6217b4ee7"
     }
   }
 ]
