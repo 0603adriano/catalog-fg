@@ -1,21 +1,21 @@
 [
   {
     "store": "EPIC",
-    "title": "Caravan SandWitch",
+    "title": "Cardpocalypse Standard Edition",
     "status": "FREE_NOW",
-    "startDate": "2026-08-13T15:00:00.000Z",
-    "endDate": "2026-08-20T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/70e9a8a90305449a88a38b708399e605",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/95b9a9a220e8483c8c1a70ad692de4b3/caravan-sandwitch-fku42.jpg",
+    "startDate": "2026-08-20T15:00:00.000Z",
+    "endDate": "2026-08-27T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/cardpocalypse/home",
+    "imageUrl": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/cards2_1200x1600-2e006bcbe82d7cf71d5102fc3566b7e5",
     "raw": {
-      "id": "0e44600a079e419abbb291ccf5af9ee7",
-      "namespace": "45b137b2ecd14e01a54b52e575f1632d"
+      "id": "b467b7d3570e44c0b84e59475f4a5636",
+      "namespace": "2bfd5ca43ef443739ada168e017e1b78"
     }
   },
   {
     "store": "EPIC",
     "title": "Pacote do Mago Épico",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2026-08-20T15:00:00.000Z",
     "endDate": "2026-08-27T15:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/epic-mage-bundle",
