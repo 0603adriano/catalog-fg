@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "store": "EPIC",
+    "title": "Alone With You",
+    "status": "FREE_NOW",
+    "startDate": "2026-09-03T15:00:00.000Z",
+    "endDate": "2026-09-10T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/68a0e4e0a68d42ffba405593a89c55ba",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-ven8l.png",
+    "raw": {
+      "id": "b8cc76ce7d6645f0a282b843a072cc78",
+      "namespace": "cb87ac984c3c4c19b0a4e3e89048f187"
+    }
+  }
+]
