@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Mindcop",
+    "title": "Astrea Six Sided Oracles",
     "status": "FREE_NOW",
-    "startDate": "2026-09-17T15:00:00.000Z",
-    "endDate": "2026-09-24T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/1513de80f23f42e584540be749826057",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-1ppb5.jpg",
+    "startDate": "2026-09-24T15:00:00.000Z",
+    "endDate": "2026-10-01T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/915d7181013c40d980e1924513c7b8ec",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/download-astrea-six-sided-oracles-offer-av5rc.png",
     "raw": {
-      "id": "8a20c6c8d5b5417e800c687e9d72013e",
-      "namespace": "f20a4eda0f2d486ea73cab8af1224e31"
+      "id": "7c14bf0cffdd43be968fdcf28e5af653",
+      "namespace": "a940fa38f001486a9884640924119576"
     }
   },
   {
     "store": "EPIC",
-    "title": "Shogun Showdown",
+    "title": "Mechabellum",
     "status": "FREE_NOW",
-    "startDate": "2026-09-17T15:00:00.000Z",
-    "endDate": "2026-09-24T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/shogun-showdown",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-6ynli.jpg",
+    "startDate": "2026-09-24T15:00:00.000Z",
+    "endDate": "2026-10-01T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/6a87570c28144b9cb50eb0ba46a7e19e",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1jq5t.jpg",
     "raw": {
-      "id": "b9ff3f98367a45cdac289dff6683a2bc",
-      "namespace": "59ff4d481277487d8c073166ba7612d3"
+      "id": "6d99eae44d724baf84d6261a7a0f05d2",
+      "namespace": "36074aa6badf45698cced1a44e837fa2"
     }
   }
 ]
