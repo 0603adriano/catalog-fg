@@ -1,28 +1,28 @@
 [
   {
     "store": "EPIC",
-    "title": "Astrea Six Sided Oracles",
+    "title": "System Shock 2: 25th Anniversary Remaster",
     "status": "FREE_NOW",
-    "startDate": "2026-09-24T15:00:00.000Z",
-    "endDate": "2026-10-01T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/915d7181013c40d980e1924513c7b8ec",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/download-astrea-six-sided-oracles-offer-av5rc.png",
+    "startDate": "2026-10-01T15:00:00.000Z",
+    "endDate": "2026-10-08T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/system-shock-2-25th-anniversary-remaster",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/690ff600d5134d9ab12c96862ed5257a/system-shock-2-25th-anniversary-remaster-15vqr.jpg",
     "raw": {
-      "id": "7c14bf0cffdd43be968fdcf28e5af653",
-      "namespace": "a940fa38f001486a9884640924119576"
+      "id": "7ae00c3e89174012b175cc73b4737723",
+      "namespace": "a90f2381d7aa48c09b4080515a9541cd"
     }
   },
   {
     "store": "EPIC",
-    "title": "Mechabellum",
+    "title": "BURIED STARS",
     "status": "FREE_NOW",
-    "startDate": "2026-09-24T15:00:00.000Z",
-    "endDate": "2026-10-01T15:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/6a87570c28144b9cb50eb0ba46a7e19e",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-1jq5t.jpg",
+    "startDate": "2026-10-01T15:00:00.000Z",
+    "endDate": "2026-10-08T15:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/buried-stars",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/e2dc55c2709641a18fc37ef7ce32cfdd/buried-stars-yijfe.png",
     "raw": {
-      "id": "6d99eae44d724baf84d6261a7a0f05d2",
-      "namespace": "36074aa6badf45698cced1a44e837fa2"
+      "id": "af4c34934afe4db0870b8a1d82dceb94",
+      "namespace": "9bd512d68e3143909842932ac45a4182"
     }
   }
 ]
