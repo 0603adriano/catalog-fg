@@ -6,7 +6,7 @@
     "startDate": "2026-11-26T16:00:00.000Z",
     "endDate": "2026-12-03T16:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/1185abfe7c554a1e8c528aba37bf3d0f",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1yvry.jpg",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-135i3.jpg",
     "raw": {
       "id": "0623017cf9f341efbe07557f46beb4e8",
       "namespace": "bda8d2133655435982b9118972792328"
@@ -14,15 +14,15 @@
   },
   {
     "store": "EPIC",
-    "title": "Knightica",
+    "title": "Mark of the Deep",
     "status": "FREE_NOW",
-    "startDate": "2026-11-12T16:00:00.000Z",
-    "endDate": "2026-11-19T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/72b46f5d95624fd5b7e7d81b7dcaead1",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1xc3d.png",
+    "startDate": "2026-11-19T16:00:00.000Z",
+    "endDate": "2026-11-26T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/2fd257a6cd80405a833f9004ff07993a",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-1lope.png",
     "raw": {
-      "id": "9975548b6d404a94b8a9bdb34cad49e9",
-      "namespace": "02d659f31e1c43a78c43fd9fd9edc089"
+      "id": "1f9a12b06b4f437790b6913ad136a08c",
+      "namespace": "3d6441ab9d4246208bc97d7babf664b5"
     }
   }
 ]
