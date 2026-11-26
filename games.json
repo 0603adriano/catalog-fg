@@ -2,7 +2,7 @@
   {
     "store": "EPIC",
     "title": "Firestone – Idle Clicker Online RPG",
-    "status": "FREE_SOON",
+    "status": "FREE_NOW",
     "startDate": "2026-11-26T16:00:00.000Z",
     "endDate": "2026-12-03T16:00:00.000Z",
     "claimUrl": "https://store.epicgames.com/pt-BR/p/1185abfe7c554a1e8c528aba37bf3d0f",
@@ -14,15 +14,15 @@
   },
   {
     "store": "EPIC",
-    "title": "Mark of the Deep",
+    "title": "Bread and Fred",
     "status": "FREE_NOW",
-    "startDate": "2026-11-19T16:00:00.000Z",
-    "endDate": "2026-11-26T16:00:00.000Z",
-    "claimUrl": "https://store.epicgames.com/pt-BR/p/2fd257a6cd80405a833f9004ff07993a",
-    "imageUrl": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-1lope.png",
+    "startDate": "2026-11-26T16:00:00.000Z",
+    "endDate": "2026-12-03T16:00:00.000Z",
+    "claimUrl": "https://store.epicgames.com/pt-BR/p/3435439bd89847608f5299fb297d1466",
+    "imageUrl": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-pr4o2.jpg",
     "raw": {
-      "id": "1f9a12b06b4f437790b6913ad136a08c",
-      "namespace": "3d6441ab9d4246208bc97d7babf664b5"
+      "id": "f0a333114190492c84a9decd2bb43875",
+      "namespace": "7e95faaa77054b80828dd7d64bbeb4ff"
     }
   }
 ]
